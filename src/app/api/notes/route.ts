@@ -166,7 +166,7 @@ export async function DELETE(req: Request) {
   }
 }
 
-export function getEmbeddingForNotes(
+async function getEmbeddingForNotes(
   title: string,
   content: string | undefined
 ) {
